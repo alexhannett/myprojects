@@ -5,7 +5,7 @@ import acm.program.*;
 import java.awt.event.*;
 
 public class DrawingLines extends GraphicsProgram {
-	public void run() {
+	public void init() {
 		readInstructions();
 		addMouseListeners();
 	}
